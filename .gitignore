@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+*.npy
+*.npz
+*.keras
+*.h5
+.env
