@@ -1,1 +1,15 @@
+data:
+  raw_csv_path: "/content/drive/MyDrive/Grad_project/Sign Language Graduation Project/letters_hand_landmarks.csv"
+  output_dir: "/content/drive/MyDrive/processed_data/letters"
+  label_col: "4190"
+  num_classes: 32
 
+preprocessing:
+  drop_na: true
+  drop_duplicates: true
+  drop_all_zero_rows: true
+  wrist_index: 0
+  scale_ref_index: 9
+  eps: 1.0e-6
+  output_x_name: "X_letters_norm.npy"
+  output_y_name: "y_letters.npy"
